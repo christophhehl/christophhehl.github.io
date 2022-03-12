@@ -1,6 +1,7 @@
-html,body{
+html, body {
     height: 100%;
-    overflow-y:hidden;
+    overflow-y: hidden;
+    overflow-x: hidden;
 }
 
 /*-----------------------------------------------------------------*/
@@ -11,7 +12,13 @@ html,body{
     font-size: 8em;
     color: white;
     padding: 0.5em;
-    background-color: rgba(0,0,0,0.45);
+    background-color: rgba(0, 0, 0, 0.45);
+}
+
+#accounts {
+    margin-top: 10em;
+    background-color: rgba(0, 0, 0, 0.45);
+    padding: 0.3em;
 }
 
 /*-----------------------------------------------------------------*/
@@ -22,9 +29,19 @@ html,body{
     background-size: cover;
 }
 
-.center {
+.full-height {
     height: 100%;
+}
+
+.logo{
+    height: 5em;
+    width: 5em;
+}
+
+.center {
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
+    text-align: center;
 }
