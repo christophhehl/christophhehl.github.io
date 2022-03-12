@@ -38,7 +38,7 @@ html, body {
 
 .logo{
     height: 5em;
-    width: 5em;
+    width: auto;
     margin-left: 0.5em;
     margin-right: 0.5em;
 }
