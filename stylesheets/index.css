@@ -7,7 +7,7 @@ html, body {
 /*-----------------------------------------------------------------*/
 /*IDs*/
 
-@media (max-width: 1081px) and (min-height: 2000px) {
+@media (max-width: 1081px) and (min-height: 1800px) {
     #myname {
         font-size: 6vh !important;
         padding: 2vh !important;
@@ -42,7 +42,7 @@ html, body {
 /*-----------------------------------------------------------------*/
 /*Classes*/
 
-@media (max-width: 1081px) and (min-height: 2000px) {
+@media (max-width: 1081px) and (min-height: 1800px) {
     .logo {
         height: 4.5vh !important;
         margin-left: 0.5vh !important;
