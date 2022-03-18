@@ -9,23 +9,23 @@ html, body {
 
 #myname {
     font-family: 'Orbitron', sans-serif;
-    font-size: 8em;
+    font-size: 15vh;
     color: white;
-    padding: 0.5em;
+    padding: 5vh;
     background-color: rgba(0, 0, 0, 0.45);
 }
 
 #accounts {
-    margin-top: 10em;
+    margin-top: 15vh;
     background-color: rgba(0, 0, 0, 0.45);
-    padding: 0.3em;
+    padding: 0.5vh;
 }
 
 #footer{
     position: absolute;
     bottom: 0;
     width: 100%;
-    height: 2em;
+    height: 3.5vh;
 }
 
 /*-----------------------------------------------------------------*/
@@ -45,15 +45,15 @@ html, body {
 
 .footer-text{
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 0.7em;
+    font-size: 1.25vh;
     color: white;
 }
 
 .logo{
-    height: 5em;
+    height: 8vh;
     width: auto;
-    margin-left: 0.5em;
-    margin-right: 0.5em;
+    margin-left: 1vh;
+    margin-right: 1vh;
 }
 
 .center {
