@@ -7,6 +7,17 @@ html, body {
 /*-----------------------------------------------------------------*/
 /*IDs*/
 
+@media (max-width: 1081px) and (min-height: 2000px) {
+    #myname {
+        font-size: 6vh !important;
+        padding: 2vh !important;
+    }
+
+    #accounts {
+        margin-top: 30vh !important;
+    }
+}
+
 #myname {
     font-family: 'Orbitron', sans-serif;
     font-size: 15vh;
@@ -21,7 +32,7 @@ html, body {
     padding: 0.5vh;
 }
 
-#footer{
+#footer {
     position: absolute;
     bottom: 0;
     width: 100%;
@@ -30,6 +41,14 @@ html, body {
 
 /*-----------------------------------------------------------------*/
 /*Classes*/
+
+@media (max-width: 1081px) and (min-height: 2000px) {
+    .logo {
+        height: 4.5vh !important;
+        margin-left: 0.5vh !important;
+        margin-right: 0.5vh !important;
+    }
+}
 
 .bg-image {
     background-image: url("../assets/background.jpg");
@@ -43,13 +62,13 @@ html, body {
     height: 100%;
 }
 
-.footer-text{
+.footer-text {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 1.25vh;
     color: white;
 }
 
-.logo{
+.logo {
     height: 8vh;
     width: auto;
     margin-left: 1vh;
