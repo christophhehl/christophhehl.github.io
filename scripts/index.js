@@ -12,7 +12,7 @@ function isUsingMobile() {
 }
 
 function copyDiscordName() {
-    const discordName = "Skrik#0363"
+    const discordName = "skrik"
     /* Copy the text inside the text field */
     navigator.clipboard.writeText(discordName);
 
